@@ -1,6 +1,4 @@
 # Workflow dev tools
-Init your environment for debug by running in order:
-
 ## Quick debug session with workflow name
 
 Run:
@@ -11,7 +9,10 @@ source ./start_debug_session.sh [PLATFORM_URL] [WORKFLOW_NAME]
 You can then continue directly to 'Run Container as platform POD' section.
 
 ## Manual setup
+
+Init your environment for debug by running in order the following sections.
 ### Common
+
 [PLATFORM_URL] is mandatory.
 ```
 . ./set_restish.sh [PLATFORM_URL] [RESTISH_PLATFORM] [ORGANIZATION] [SCENARIO_RUN]
@@ -23,17 +24,20 @@ example:
 ```
 
 ### From a scenario run
+
 ```
 . ./get_scenariorun.sh
 . ./get_workflow_name.sh
 ```
 
 ### From a workflow
+
 ```
 . ./set_workflow_name.sh [WORKFLOW_NAME]
 ```
 
 ### Common
+
 ```
 . ./create_data_dir.sh
 . ./get_workflow_pods.sh
@@ -45,6 +49,7 @@ Other tools:
 ```
 
 ## Run Container as platform POD
+
 For each pod you want to run:
 ```
 ./run_workflow_step.sh [POD_NAME]
@@ -62,6 +67,7 @@ You will want to run in order:
 * Post-Run
 
 ## Local debug from sources
+
 Run:
 ```
 . ./get_and_load_env_var_local.sh [POD_NAME]
