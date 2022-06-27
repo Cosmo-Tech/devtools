@@ -1,6 +1,6 @@
-# Workflow dev tools
+# Workflow dev tools
 
-## Quick debug session with workflow name
+## Quick debug session with workflow name
 
 Run:
 ```
@@ -9,10 +9,10 @@ source ./start_debug_session.sh [PLATFORM_URL] [WORKFLOW_NAME]
 
 You can then continue directly to 'Run Container as platform POD' section.
 
-## Manual setup
+## Manual setup
 
 Init your environment for debug by running in order the following sections.
-### Common
+### Common
 
 [PLATFORM_URL] is mandatory.
 ```
@@ -37,7 +37,7 @@ example:
 . ./set_workflow_name.sh [WORKFLOW_NAME]
 ```
 
-### Common
+### Common
 
 ```
 . ./create_data_dir.sh
@@ -49,7 +49,7 @@ Other tools:
 . ./get_env_vars [POD_NAME]
 ```
 
-## Run Container as platform POD
+## Run Container as platform POD
 
 For each pod you want to run:
 ```
