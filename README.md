@@ -75,15 +75,12 @@ Run:
 ```
 
 Go into your source code directory.
-
 ```
 pipenv --python 3.9
 ```
-
 pip install all needed requirements.txt.
 
 cd in step directory.
-
 ```
 python3 main.py
 ```
