@@ -24,7 +24,7 @@ example:
 . ./set_restish.sh https://staging.api.cosmotech.com staging O-vnRqz3dlLd sr-158yzp8jednj
 ```
 
-### From a scenario run
+### From a scenario run
 
 ```
 . ./get_scenariorun.sh
