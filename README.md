@@ -1,5 +1,14 @@
 # Workflow dev tools
 
+## Pre-requisites
+* kubectl
+* jq
+* if you want to get the workflow name from the scenario run: restish
+
+WARNING: Set correctly your kubernetes context before starting
+```
+kubectl config use-context [CONTEXT]
+```
 ## Quick debug session with workflow name
 
 Run:
