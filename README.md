@@ -1,6 +1,6 @@
 # Workflow dev tools
 
-## Pre-requisites
+## Pre-requisites
 * kubectl
 * jq
 * if you want to get the workflow name from the scenario run: restish
